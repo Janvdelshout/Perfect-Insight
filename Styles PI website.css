@@ -1,0 +1,29 @@
+body{
+    background-color:#13281f ;
+}
+p{ 
+    color:  #ffffff ;
+}
+h1{
+font-size: 30px;
+color: #a18f1f;
+}
+h2{
+font-size: 20px;
+color: #8da598;
+}
+.black{ 
+color: peru;
+}
+.Big-chungus {
+font-size: 100px;
+}
+.black.Big-chungus{
+text-transform: uppercase;
+}
+h1 span{ 
+color:royalblue;
+}
+h2 span{
+color:red;
+}
