@@ -1,36 +1,55 @@
 <!DOCTYPE html>
+<script type="text/javascript">
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentSCrollpos = window.pageYOffset;
+    if (prevScrollpos > currentSCrollpos) {
+        document.getElementById("navbar").style.top = "0px";
+    } else {
+        document.getElementById("navbar").style.top = "-140px";
+    }
+    
+    prevScrollpos = currentSCrollpos;
+        
+    }
+        
+</script>
 <html>
 <link rel="stylesheet" type="text/css" href="Styles PI website.css">
 <head>
     <title>  The website of Perfect Insight </title>
 </head>
-<div>
-    <div id="topbar">
-</div>
 <nav id="navbar">
     <div id="div1">
         <div id="div-content1">
-            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Wat is een Dashboard</b></a> 
+            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Dashboards</b></a> 
+            <img src= "Logo dashboard voor site.jpg" id="Logodashboard-site" height="90px" width="90px">
         </div>
     <div id="div2">
         <div id="div-content1">
-            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Wie is Perfect Insight</b></a>
+            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Het team<br></b></a>
+            <img src= "Logo wie is perfect insight site.jpg" id="Logoteam-site" height="70px" width="90px">
         </div> 
     <div id="div3">
         <div id="div-content1">
             <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Portofolio</b></a>
+            <img src= "Logo potofolio website.jpg" id="Logo-portofolio" height="72px" width="90px">
         </div>
     <div id="div4">
         <div id="div-content1">
             <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Werkwijze</b></a>
+            <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="80px" width="90px">
         </div>
     <div id="div5">
             <div id="div-content1">
                 <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Recencies</b></a>
+                <img src= "Logo recensie.jpg" id="Logo-recensie" height="75px" width="70px">
         </div>
     <div id="div6">
         <div id="div-content1">
             <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Contact</b></a>
+            <img src= "Logo contact.jpg" id="Logo-contact" height="60x" width="70px">
     </div>
     </div>
 </nav>  
@@ -39,7 +58,6 @@
     <h1 style="color: #a18f1f">
         Welkom bij Perfect Insight
     </h1>
-
     </div>
 </body>
 </html>
