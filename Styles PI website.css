@@ -1,28 +1,24 @@
 body{
     background-color:#26453a ;
-    position: sticky;
-    width: 97vw; 
-    height: 1900px;
+    position: absolute;
+    width: 1000px; 
+    height: 1400px;
+    padding: 0;
+    margin:0;
 }
 #navbar{
     background-color: #13281f;
     position: fixed;
     height: 130px; 
-    width: 97vw;
-    outline:0.5mm #a18f1f solid;
+    width: 1240px;
+    outline:1mm #c5b02b solid;
     z-index: 14;
-    transition: top 0.4s;
+    transition: top 1s;
     display: block;
     top: 0px;
+    opacity: 0.95;
+    left: 10px;
 
-}
-#topbar{
-    background-color:#26453a ;
-    height:20px;
-    width: 97vw;
-    z-index: 1;
-    position:fixed;
-    top:0px;
 }
 #div1{
     background-color: #26453a;
@@ -31,7 +27,7 @@ body{
     height: 90px;
     width: 200px;
     top: 19px;
-    left: 20px;
+    left: 18px;
     outline:0.5mm #a18f1f solid;
     text-align: inherit;
 }
@@ -86,7 +82,7 @@ body{
 }
 #div-content1{
     position: absolute;
-    display: inline-block;
+    display: block;
     bottom: 1mm;
     left: 2mm;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,8 +91,12 @@ body{
 }
 #homepic{
     position: absolute;
-    top: 150px;
+    top: 160px;
     left: 70px;
+    outline: 3mm #c5b02b solid;
+    position: 50%;
+    left: 30px;
+    
 }
 .img1{
     display: inline-block;
@@ -136,13 +136,21 @@ body{
         position: absolute;
         z-index: 0;
         bottom: 0px;
-        left:100px
+        left:100px;
+        opacity: 1;
 }
 #Logo-contact{
     position: absolute;
     z-index: 0;
     bottom: 3px;
-    left:90px;
+    left:85px;
+    opacity: 1;
+}
+#logo-only-pie{
+    position: absolute;
+    z-index: 20;
+    top:40px ;
+    right:445px ;
 }
 
 a:link {
@@ -150,6 +158,7 @@ a:link {
     text-decoration: none;
     font-size: 20px;
     z-index: 16;
+    opacity: 1;
 }
 a:visited {
     color: #c5b02b ;
@@ -170,4 +179,115 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+#divbody1{
+    position: relative;
+    display:block; 
+    height: 60px;
+    width: 1200px;
+    background-color: #13281f;
+    margin-top: 0px;
+    left: 30px;
+    outline: 2mm #c5b02b solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #c5b02b;
+    font-size: 25px;
+    text-align: center;
+    transition: top 2s;
+    top:1200px;
+    z-index: 0;
+}
+#hidebody1{ 
+    position: relative;
+    display: block;
+    height: 500px;
+    width: 1200px;
+    background-color: #26453a;
+    margin-top: 0px;
+    left: 20px;
+    z-index: 1;
+    top:700px
+}
 
+  
+#div7 img{
+    position:absolute;
+    left:30px;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+  }
+  
+ @keyframes cf3FadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+
+
+#div7 img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  }
+
+#divbody2{
+    position: relative;
+    display: block;
+    height: 300px;
+    width: 1200px;
+    background-color: #13281f;
+    margin-top: 0px;
+    left: 10px;
+    outline: 2mm #c5b02b solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #c5b02b;
+    font-size: 29px;
+    text-align: center;
+    transition: top 2s;
+    top: -94px;
+    z-index: 3;
+}
+#divbody3{
+    position: absolute;
+    display: block;
+    height: 400px;
+    width: 1200px;
+    background-color: #13281f;
+    margin-top: 0px;
+    left: 10px;
+    outline: 2mm #c5b02b solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #c5b02b;
+    font-size: 29px;
+    text-align: center;
+    transition: top 2s;
+    top: 300px;
+    z-index: 20;
+}
+#hidebody{
+    position: relative;
+    display: block;
+    height: 300px;
+    width: 1273px;
+    background-color: #13281f;
+    margin-top: 0px;
+    left: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    text-align: center;
+    transition: top 2s;
+    bottom: -500px;
+    z-index: 0;
+}

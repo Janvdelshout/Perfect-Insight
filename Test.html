@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <script type="text/javascript">
 
+
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
     var currentSCrollpos = window.pageYOffset;
+         
     if (prevScrollpos > currentSCrollpos) {
         document.getElementById("navbar").style.top = "0px";
-    } else {
-        document.getElementById("navbar").style.top = "-140px";
+    } 
+    else {
+        document.getElementById("navbar").style.top = "-200px"; 
     }
-    
+    prevScrollpos = currentSCrollpos;
+
+    if (prevScrollpos > currentSCrollpos) {
+        document.getElementById("divbody1").style.top="1200px";
+    } 
+    else {
+        document.getElementById("divbody1").style.top= "600px";
+    }
     prevScrollpos = currentSCrollpos;
         
     }
-        
 </script>
 <html>
 <link rel="stylesheet" type="text/css" href="Styles PI website.css">
@@ -29,7 +38,7 @@
     <div id="div2">
         <div id="div-content1">
             <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Het team<br></b></a>
-            <img src= "Logo wie is perfect insight site.jpg" id="Logoteam-site" height="70px" width="90px">
+            <img src= "Logo wie is perfect insight site.jpg" id="Logoteam-site" height="67px" width="100px">
         </div> 
     <div id="div3">
         <div id="div-content1">
@@ -43,21 +52,30 @@
         </div>
     <div id="div5">
             <div id="div-content1">
-                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Recencies</b></a>
+                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Recensies</b></a>
                 <img src= "Logo recensie.jpg" id="Logo-recensie" height="75px" width="70px">
         </div>
     <div id="div6">
         <div id="div-content1">
             <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Contact</b></a>
-            <img src= "Logo contact.jpg" id="Logo-contact" height="60x" width="70px">
+            <img src= "Logo contact.jpg" id="Logo-contact" height="55x" width="75px">
+            <img src="pie.png" class="pie" id= "logo-only-pie" height="60"    width="70px">
     </div>
-    </div>
-</nav>  
+</nav> 
 <body>
-    <img src="HomepicV1.jpg" alt="" id="homepic" height="610px" width="1150px">
-    <h1 style="color: #a18f1f">
-        Welkom bij Perfect Insight
-    </h1>
+    <div id="div7">
+        <img class="bottom" src="HomepicV2.jpg" alt="" id="homepic" height="400px" width="1200px">/>
+        <img class="top" src="HomepicV1.jpg" height="400px" id="homepic" width="1200px" />
+    </div>
+    <div id= "divbody1">
+        <p id="text-of-welkom"><b></b></p>
+    </div>
+    <div id= "hidebody1">
+    <div id= "divbody2">
+    </div>
+    <div id="divbody3">
+    </div>
+    <div id="hidebody">
     </div>
 </body>
 </html>
