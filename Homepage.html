@@ -15,14 +15,15 @@
     prevScrollpos = currentSCrollpos;
 
     if (prevScrollpos > currentSCrollpos) {
-        document.getElementById("divbody1").style.top="1200px";
+        document.getElementById("Titlebody1").style.top="1200px";
     } 
     else {
-        document.getElementById("divbody1").style.top= "600px";
+        document.getElementById("Titlebody1").style.top= "600px";
     }
     prevScrollpos = currentSCrollpos;
         
     }
+
 </script>
 <html>
 <link rel="stylesheet" type="text/css" href="Styles PI website.css">
@@ -48,7 +49,7 @@
     <div id="div4">
         <div id="div-content1">
             <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Werkwijze</b></a>
-            <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="80px" width="90px">
+            <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="80px" width="80px">
         </div>
     <div id="div5">
             <div id="div-content1">
@@ -67,12 +68,33 @@
         <img class="bottom" src="HomepicV2.jpg" alt="" id="homepic" height="400px" width="1200px">/>
         <img class="top" src="HomepicV1.jpg" height="400px" id="homepic" width="1200px" />
     </div>
-    <div id= "divbody1">
-        <p id="text-of-welkom">Makkelijk, overzichtelijk en aantrekkelijk inzicht in uit uw data start bij Perfect Insight</p>
+    <div id= "Titlebody1">
+        <p id="text-of-welkom"><span class="bigger-better"> Een Dashboad van Perfect Insight geeft u  makkelijk overzichtelijk en innovatief inzicht in uw data </span></p>
     </div>
     <div id= "hidebody1">
     <div id= "divbody2">
-        <img src= "Homepagedivbod1.jpg" id= "picturedivbody1" height="300px" width="450px">
+            <img alt="" src="Homepagedivbod1.jpg" 
+                style="height: 300px; width: 500px" id="imgClickAndChange" 
+        onclick="changeImage()"  />
+        <script language="javascript">
+            function changeImage() {
+                if (document.getElementById("imgClickAndChange").src == "HomepicV1.jpg") 
+                {
+                    document.getElementById("imgClickAndChange").src = "Homepagedivbod1.jpg";
+                }
+                else
+                {
+                    document.getElementById("imgClickAndChange").src = "HomepicV1.jpg";
+                }
+            }
+            </script>
+        <div id="divbody2text">
+            <p><b>Welkom op de Website van Perfect Insight (PI) de Dashboard bouwers van ondernemend Nederland</b><br><br>
+            <span class="goodquestion"><i>&bull; Heeft u genoeg data maar niet genoeg overzicht?<br><br>
+                &bull;  Wilt u de 21ste eeuw betreden op het gebied van data gebruik?<br><br>
+                &bull; Geen zin om data gedreven feiten te achterhalen, maar direct gebruiken?<br><br><br></i>  </span>
+                <b>Dan heeft u wellicht behoefte aan een Dashboard <br>(zoals hier links weergegeven) en daar kan PI direct bij helpen.</b></p>
+        </div>
 
     </div>
     <div id="divbody3">

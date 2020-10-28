@@ -2,7 +2,7 @@ body{
     background-color:#26453a ;
     position: absolute;
     width: 1000px; 
-    height: 1400px;
+    height: 1200px;
     padding: 0;
     margin:0;
 }
@@ -85,9 +85,9 @@ body{
     display: block;
     bottom: 1mm;
     left: 2mm;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: georgia, serif;
     z-index: 15;
-
+    font-weight: 800;
 }
 #homepic{
     position: absolute;
@@ -130,7 +130,7 @@ body{
     position: absolute;
         z-index: 0;
         bottom: 0px;
-        left:100px
+        left:110px
 }
 #Logo-recensie{
         position: absolute;
@@ -156,15 +156,15 @@ body{
 a:link {
     color: #c5b02b ;
     text-decoration: none;
-    font-size: 20px;
-    z-index: 16;
+    font-size: 18px;
+    z-index: 14;
     opacity: 1;
 }
 a:visited {
     color: #c5b02b ;
     text-decoration: none;
     z-index: 2;
-    font-size: 16px;
+    font-size: 18px;
 }
 h1{
     background-color:#13281f;
@@ -179,10 +179,10 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-#divbody1{
+#Titlebody1{
     position: relative;
     display:inline-block; 
-    height: 60px;
+    height: 50px;
     width: 1200px;
     background-color: #13281f;
     margin-top: 0px;
@@ -191,7 +191,8 @@ h1{
     font-family:georgia, serif;
     font-weight: 600;
     color:  #c5b02b;
-    font-size: 25px;
+    font-size: 23.5px;
+    font-weight: normal;
     text-align: center;
     transition: top 2s;
     top:1240px;
@@ -200,25 +201,21 @@ h1{
     vertical-align: middle;
     line-height: 2px;
 }
-#picturedivbody1{
-    position: absolute;
-    right:20px;
-    bottom: 0px;
-    
+.bigger-better{
+    font-weight: 800;
 }
+
 #hidebody1{ 
     position: relative;
     display: block;
     height: 500px;
-    width: 1200px;
+    width: 1230px;
     background-color: #26453a;
     margin-top: 0px;
     left: 20px;
     z-index: 1;
     top:700px
 }
-
-  
 #div7 img{
     position:absolute;
     left:30px;
@@ -258,17 +255,33 @@ h1{
     height: 300px;
     width: 1200px;
     background-color: #13281f;
-    margin-top: 0px;
+    margin-top:0px;
     left: 10px;
     outline: 2mm #c5b02b solid;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: georgia, serif;
+    font-weight: 500;
     color:  #c5b02b;
-    font-size: 29px;
-    text-align: center;
-    transition: top 2s;
+    font-size: 20px;
+    text-align: left;
     top: -94px;
     z-index: 3;
 }
+#divbody2text{
+    display: inline-block;
+    position: absolute;
+    width: 700px;
+    left: 7px;
+    top: -10px;
+}
+#divbody2 img{
+    position:absolute;
+    right:4px;
+    bottom: 0px;
+}
+.goodquestion{
+    font-size: 20px;
+}
+
 #divbody3{
     position: absolute;
     display: block;
@@ -283,13 +296,13 @@ h1{
     font-size: 29px;
     text-align: center;
     transition: top 2s;
-    top: 300px;
+    top: 260px;
     z-index: 20;
 }
 #hidebody{
     position: relative;
     display: block;
-    height: 300px;
+    height: 200px;
     width: 1273px;
     background-color: #13281f;
     margin-top: 0px;
@@ -298,6 +311,6 @@ h1{
     font-size: 29px;
     text-align: center;
     transition: top 2s;
-    bottom: -500px;
+    bottom: -410px;
     z-index: 0;
 }
