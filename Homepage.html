@@ -21,137 +21,164 @@
         document.getElementById("Titlebody1").style.top= "613px";
     }
     prevScrollpos = currentSCrollpos;
-        
-    }
 
+    if (prevScrollpos > currentSCrollpos) {
+        document.getElementById("intropic").style.top = "0px";
+    } 
+    else {
+        document.getElementById("intropic").style.top = "-1200px"; 
+    }
+    }    
 </script>
-<html>
 <link rel="stylesheet" type="text/css" href="Styles PI website.css">
 <head>
     <title>  De website van Perfect Insight </title>
 </head>
-<nav id="navbar">
-    <div id="div1">
-        <div id="div-content1">
-            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Dashboards</b></a> 
-            <img src= "Logo dashboard voor site.jpg" id="Logodashboard-site" height="90px" width="90px">
-        </div>
-    <div id="div2">
-        <div id="div-content1">
-            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Het team<br></b></a>
-            <img src= "Logo wie is perfect insight site.jpg" id="Logoteam-site" height="67px" width="100px">
-        </div> 
-    <div id="div3">
-        <div id="div-content1">
-            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Portofolio</b></a>
-            <img src= "Logo potofolio website.jpg" id="Logo-portofolio" height="72px" width="90px">
-        </div>
-    <div id="div4">
-        <div id="div-content1">
-            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Werkwijze</b></a>
-            <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="80px" width="80px">
-        </div>
-    <div id="div5">
+<div id="intropic">
+    <img src="intropic.jpg" id="intropi">
+</div>
+</body>
+    <div id="pagerap">
+        <nav id="navbar">
+        <div id="div1">
             <div id="div-content1">
-                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Recensies</b></a>
-                <img src= "Logo recensie.jpg" id="Logo-recensie" height="75px" width="70px">
-        </div>
-    <div id="div6">
-        <div id="div-content1">
-            <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Contact</b></a>
-            <img src= "Logo contact.jpg" id="Logo-contact" height="55x" width="75px">
-            <img src="pie.png" class="pie" id= "logo-only-pie" height="60"    width="70px">
-    </div>
-</nav> 
-<body>
-    <div id="div7">
-        <img class="bottom" src="HomepicV2.jpg" alt="" id="homepic" height="400px" width="1200px">/>
-        <img class="top" src="HomepicV1.jpg" height="400px" id="homepic" width="1200px" />
-    </div>
-    <div id= "Titlebody1">
-        <p id="text-of-welkom"><span class="bigger-better"> Een Dashboad van Perfect Insight geeft u  makkelijk overzichtelijk en innovatief inzicht in uw data </span></p>
-    </div>
-    <div id= "hidebody1">
-    <div id= "divbody2" >
-            <img alt="" src="Homepagedivbod1.jpg"  
-                style="height: 300px; width: 500px" id="imgClickAndChange"
-        onclick="changeImage()"  />
-        <script language="javascript">
-            var image_tracker = "1"
-            function changeImage() {
-                if (image_tracker == "1") {
-                    document.getElementById("imgClickAndChange").src == "file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website/Perfect-insight/HomepicV1.jpg";
-                {
-                    document.getElementById("imgClickAndChange").src = "Homepagedivbod1.jpg";
-                    image_tracker ="2";
-                }  
-                } 
-                else if (image_tracker == "2")
-                {
-                    document.getElementById("imgClickAndChange").src = "Homepagedivbod2.jpg";
-                    image_tracker ="3";
-                }
-                else if(image_tracker == "3")
-                {
-                    document.getElementById("imgClickAndChange").src = "Homepagedivbod3.jpg";
-                    image_tracker ="4";
-                }
-                else
-                {
-                    document.getElementById("imgClickAndChange").src = "Homepagedivbod4.jpg";
-                    image_tracker ="1";
-                }
-
-            }
-            </script>
-            <div class="parent" style="height: 300px; width: 500px">
-                <img alt="button" src="Rondje.png" style="height: 130px; width: 130px" id="button" class="overlay" >
-                
+                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Dashboards</b></a> 
+                <img src= "Logo dashboard voor site.jpg" id="Logodashboard-site" height="90px" width="90px">
             </div>
-        <div id="divbody2text">
-            <p><b>Welkom op de Website van Perfect Insight (PI) de Dashboard bouwers van ondernemend Nederland</b><br><br>
-            <span class="goodquestion"><i>&bull; Heeft u genoeg data maar niet genoeg overzicht?<br><br>
-                &bull;  Wilt u de 21ste eeuw betreden op het gebied van data gebruik?<br><br>
-                &bull; Geen zin om data gedreven feiten te achterhalen, maar direct gebruiken?<br><br><br></i>  </span>
-                <b>Dan heeft u wellicht behoefte aan een Dashboard <br>(zoals hier links weergegeven) en daar kan PI direct bij helpen.</b></p>
-        </div>
-
-    </div>
-    <div id="divbody3">
-        <div id="divbody3text">
-            <p><b><span class= "wijzijnpi"><u>Wij zijn Perfect Insight</span></u> </b><br> <br>
-         <b>Een kleine onderneming met een passie voor perfectie en een oog voor efficiëntie, 
-            allemaal om te zorgen dat uw bedrijf het optimale uit uw data en potentie kan halen.</b> <br><br>
-            Wilt u meer informatie over dashboards en onze unieke aanpak van deze te maken,
-            klik dan snel op Dashboard en Werkwijze in de navigatiebalk voor meer informatie.<br>
-            Meer interesse in wie wij zijn en wilt u meer informatie over onze vorige projecten klik dan op Het team en Portofolio.<br> 
-            Of wilt u zien wat anderen ondernemers van onze service vonden kijk dan bij onze recensies. <br>
-            Nu al verkocht klik dan op Contact voor meer informatie over hoe u ons kunt bereiken.  </p>
-        </div>
-        <img alt="" src="SMWC.png"  id="GuysittingatAcomputer"  
-        style="height: 400px; width: 400px left">
-    </div>
-    
-    <div id="hidebody">
-        <div id="contacttext">
-            <p> <b><u> Contact Gegevens Perfect Insight.BV:</u><br>
-                <span class="contact"><br> Adres: Weverslaan 20, Voorburg, 2271BM <br>
-                    KVK: 0000<br>
-            Telefoon nummer: 06 373 20 922<br> 
-            Email: JlvandenElshout@gmail.com<br></span> </p></b>
-           
-            </div>
-        
-            <div id="contacttext2"> <p><br>  <b>Website: PerfectInsight.com <br>
-            Facebook: Facebook/PerfectInsight.nl<br>
-            Instagram: Instagram/PerfectInsight.nl<br>
-            Twitter: Twitter/PerfectInsight.nl</b></span></b>
-        </p>
+        <div id="div2">
+            <div id="div-content1">
+                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Het team<br></b></a>
+                <img src= "Logo wie is perfect insight site.jpg" id="Logoteam-site" height="67px" width="98px">
             </div> 
-            <img src="Logo.jpg" width="400px" height="100px" id="bottom-logo">
+        <div id="div3">
+            <div id="div-content1">
+                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Portofolio</b></a>
+                <img src= "Logo potofolio website.jpg" id="Logo-portofolio" height="72px" width="90px">
+            </div>
+        <div id="div4">
+            <div id="div-content1">
+                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Werkwijze</b></a>
+                <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="80px" width="80px">
+            </div>
+        <div id="div5">
+                <div id="div-content1">
+                    <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Recensies</b></a>
+                    <img src= "Logo recensie.jpg" id="Logo-recensie" height="75px" width="70px">
+            </div>
+        <div id="div6">
+            <div id="div-content1">
+                <a href="https://google.com" target="_blank" title ="Wie is Perfect Insight"><b>Contact</b></a>
+                <img src= "Logo contact.jpg" id="Logo-contact" height="55x" width="75px">
+                <img src="pie.png" class="pie" id= "logo-only-pie" height="60"    width="70px">
         </div>
-         </div>
-   </div>
+        </nav> 
+        <body>
+        <div id="div7">
+            <img class="bottom" src="HomepicV2.jpg" alt="" id="homepic" height="400px" width="1200px">/>
+            <img class="top" src="HomepicV1.jpg" height="400px" id="homepic" width="1200px" />
+        </div>
+        <div id= "Titlebody1">
+            <p id="text-of-welkom"><span class="bigger-better"> Een Dashboad van Perfect Insight geeft u  makkelijk overzichtelijk en innovatief inzicht in uw data </span></p>
+        </div>
+        <div id= "hidebody1">
+        <div id= "divbody2" >
+                <img alt="" src="Homepagedivbod1.jpg"  
+                    style="height: 300px; width: 500px" id="imgClickAndChange"
+            onclick="changeImage()"  />
+            <script language="javascript">
+                var image_tracker = "1"
+                function changeImage() {
+                    if (image_tracker == "1") {
+                        document.getElementById("imgClickAndChange").src == "file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website/Perfect-insight/HomepicV1.jpg";
+                    {
+                        document.getElementById("imgClickAndChange").src = "Homepagedivbod1.jpg";
+                        image_tracker ="2";
+                    }  
+                    } 
+                    else if (image_tracker == "2")
+                    {
+                        document.getElementById("imgClickAndChange").src = "Homepagedivbod2.jpg";
+                        image_tracker ="3";
+                    }
+                    else if(image_tracker == "3")
+                    {
+                        document.getElementById("imgClickAndChange").src = "Homepagedivbod3.jpg";
+                        image_tracker ="4";
+                    }
+                    else
+                    {
+                        document.getElementById("imgClickAndChange").src = "Homepagedivbod4.jpg";
+                        image_tracker ="1";
+                    }
+
+                }
+                </script>
+                <div class="parent" style="height: 300px; width: 500px">
+                    <img alt="button" src="Rondje.png" style="height: 130px; width: 130px" id="button" class="overlay" >
+                    
+                </div>
+            <div id="divbody2text">
+                <p><b>Welkom op de Website van Perfect Insight (PI) de Dashboard bouwers van ondernemend Nederland</b><br><br>
+                <span class="goodquestion"><i>&bull; Heeft u genoeg data maar niet genoeg overzicht?<br><br>
+                    &bull;  Wilt u de 21ste eeuw betreden op het gebied van data gebruik?<br><br>
+                    &bull; Geen zin om data gedreven feiten te achterhalen, maar direct gebruiken?<br><br><br></i>  </span>
+                    <b>Dan heeft u wellicht behoefte aan een Dashboard <br>(zoals hier links weergegeven) en daar kan PI direct bij helpen.</b></p>
+            </div>
+
+        </div>
+        <div id="divbody3">
+            <div id="divbody3text">
+                <p><b><span class= "wijzijnpi"><u>Wij zijn Perfect Insight</span></u> </b><br> <br>
+                <b>Een kleine onderneming met een passie voor perfectie en een oog voor efficiëntie, 
+                allemaal om te zorgen dat uw bedrijf het optimale uit uw data en potentie kan halen.</b> <br><br>
+                Wilt u meer informatie over dashboards en onze unieke aanpak van deze te maken,
+                klik dan snel op Dashboard en Werkwijze in de navigatiebalk voor meer informatie.<br>
+                Meer interesse in wie wij zijn en wilt u meer informatie over onze vorige projecten klik dan op Het team en Portofolio.<br> 
+                Of wilt u zien wat anderen ondernemers van onze service vonden kijk dan bij onze recensies. <br>
+                Nu al verkocht klik dan op Contact voor meer informatie over hoe u ons kunt bereiken.  </p>
+            </div>
+            <img alt="" src="SMWC.png"  id="GuysittingatAcomputer"  
+            style="height: 400px; width: 400px left">
+        </div>
+        <div id="hidebody">
+            <div id="contacttext">
+                <p> <b><u> Contact Gegevens Perfect Insight.BV:</u><br>
+                    <span class="contact"><br> Adres: Weverslaan 20, Voorburg, 2271BM <br>
+                        KVK: 0000<br>
+                Telefoon nummer: 06 373 20 922<br> 
+                Email: JlvandenElshout@gmail.com<br></span> </p></b>
+                
+                </div>
+            
+                <div id="contacttext2"> <p><br>  <b>Website: PerfectInsight.com <br>
+                Facebook: Facebook/PerfectInsight.nl<br>
+                Instagram: Instagram/PerfectInsight.nl<br>
+                Twitter: Twitter/PerfectInsight.nl</b></span></b>
+            </p>
+                </div> 
+                <img src="Logo.jpg" width="400px" height="100px" id="bottom-logo">
+            </div>
+                </div>
+        </div>
+        <div id="divbody4">
+            <img src="Untitled-7.png" id="divbod4img" height="300px" width="300px">
+            <div id="divbody4text"> <p> <span class="wijzijnpi"><u>Samen maken wij het perfecte dashboard voor uw bedrijf </u></span><br><br>
+
+                    <span class="textdiv4">Wij weten dat er tegenwoordig veel verschillende manieren zijn om een dashbaords zelf te maken.<br>
+                    Maar wij weten ook dat dit vaak een moeilijk en langdraadig process is wat vaak <br>een minder resultaat oplevert dan dat uw bedrijf verdient<br><br>
+
+                    <span class="goodquestion"> <b>Om dit te voorkomen is Perfect Insight opgricht.</b> </span><br>  <br>Wij hebben als fisie om professioneele gepersonaliseerde data-dashboards te leveren <br>aan ondernemers die geen waardevolle tijd of moeite willen steken om er zelf een te maken.<br>
+                    Want als kleine onderneming weten wij hoe belangrijk deze twee dingen kunnen zijn.<br>
+                    Kies voor perfect Insight om zonder tijds investering en moeite uw bedrijf datagedreven te maken.
+                    
+                 </p>
+            </div>
+
+
+
+            
+        </div>
+        </div>
     </div>
 </body>
 </html>
