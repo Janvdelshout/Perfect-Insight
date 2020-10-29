@@ -18,7 +18,7 @@
         document.getElementById("Titlebody1").style.top="1200px";
     } 
     else {
-        document.getElementById("Titlebody1").style.top= "600px";
+        document.getElementById("Titlebody1").style.top= "613px";
     }
     prevScrollpos = currentSCrollpos;
         
@@ -28,7 +28,7 @@
 <html>
 <link rel="stylesheet" type="text/css" href="Styles PI website.css">
 <head>
-    <title>  The website of Perfect Insight </title>
+    <title>  De website van Perfect Insight </title>
 </head>
 <nav id="navbar">
     <div id="div1">
@@ -72,22 +72,42 @@
         <p id="text-of-welkom"><span class="bigger-better"> Een Dashboad van Perfect Insight geeft u  makkelijk overzichtelijk en innovatief inzicht in uw data </span></p>
     </div>
     <div id= "hidebody1">
-    <div id= "divbody2">
-            <img alt="" src="Homepagedivbod1.jpg" 
-                style="height: 300px; width: 500px" id="imgClickAndChange" 
+    <div id= "divbody2" >
+            <img alt="" src="Homepagedivbod1.jpg"  
+                style="height: 300px; width: 500px" id="imgClickAndChange"
         onclick="changeImage()"  />
         <script language="javascript">
+            var image_tracker = "1"
             function changeImage() {
-                if (document.getElementById("imgClickAndChange").src == "HomepicV1.jpg") 
+                if (image_tracker == "1") {
+                    document.getElementById("imgClickAndChange").src == "file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website/Perfect-insight/HomepicV1.jpg";
                 {
                     document.getElementById("imgClickAndChange").src = "Homepagedivbod1.jpg";
+                    image_tracker ="2";
+                }  
+                } 
+                else if (image_tracker == "2")
+                {
+                    document.getElementById("imgClickAndChange").src = "Homepagedivbod2.jpg";
+                    image_tracker ="3";
+                }
+                else if(image_tracker == "3")
+                {
+                    document.getElementById("imgClickAndChange").src = "Homepagedivbod3.jpg";
+                    image_tracker ="4";
                 }
                 else
                 {
-                    document.getElementById("imgClickAndChange").src = "HomepicV1.jpg";
+                    document.getElementById("imgClickAndChange").src = "Homepagedivbod4.jpg";
+                    image_tracker ="1";
                 }
+
             }
             </script>
+            <div class="parent" style="height: 300px; width: 500px">
+                <img alt="button" src="Rondje.png" style="height: 130px; width: 130px" id="button" class="overlay" >
+                
+            </div>
         <div id="divbody2text">
             <p><b>Welkom op de Website van Perfect Insight (PI) de Dashboard bouwers van ondernemend Nederland</b><br><br>
             <span class="goodquestion"><i>&bull; Heeft u genoeg data maar niet genoeg overzicht?<br><br>
@@ -98,9 +118,40 @@
 
     </div>
     <div id="divbody3">
+        <div id="divbody3text">
+            <p><b><span class= "wijzijnpi"><u>Wij zijn Perfect Insight</span></u> </b><br> <br>
+         <b>Een kleine onderneming met een passie voor perfectie en een oog voor efficiëntie, 
+            allemaal om te zorgen dat uw bedrijf het optimale uit uw data en potentie kan halen.</b> <br><br>
+            Wilt u meer informatie over dashboards en onze unieke aanpak van deze te maken,
+            klik dan snel op Dashboard en Werkwijze in de navigatiebalk voor meer informatie.<br>
+            Meer interesse in wie wij zijn en wilt u meer informatie over onze vorige projecten klik dan op Het team en Portofolio.<br> 
+            Of wilt u zien wat anderen ondernemers van onze service vonden kijk dan bij onze recensies. <br>
+            Nu al verkocht klik dan op Contact voor meer informatie over hoe u ons kunt bereiken.  </p>
+        </div>
+        <img alt="" src="SMWC.png"  id="GuysittingatAcomputer"  
+        style="height: 400px; width: 400px left">
     </div>
+    
     <div id="hidebody">
+        <div id="contacttext">
+            <p> <b><u> Contact Gegevens Perfect Insight.BV:</u><br>
+                <span class="contact"><br> Adres: Weverslaan 20, Voorburg, 2271BM <br>
+                    KVK: 0000<br>
+            Telefoon nummer: 06 373 20 922<br> 
+            Email: JlvandenElshout@gmail.com<br></span> </p></b>
+           
+            </div>
+        
+            <div id="contacttext2"> <p><br>  <b>Website: PerfectInsight.com <br>
+            Facebook: Facebook/PerfectInsight.nl<br>
+            Instagram: Instagram/PerfectInsight.nl<br>
+            Twitter: Twitter/PerfectInsight.nl</b></span></b>
+        </p>
+            </div> 
+            <img src="Logo.jpg" width="400px" height="100px" id="bottom-logo">
+        </div>
+         </div>
+   </div>
     </div>
 </body>
 </html>
-
