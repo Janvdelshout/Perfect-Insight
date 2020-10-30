@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <script type="text/javascript">
-
-
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
     var currentSCrollpos = window.pageYOffset;
@@ -12,13 +10,34 @@
     else {
         document.getElementById("navbar").style.top = "-200px"; 
     }
-    prevScrollpos = currentSCrollpos;
-}    
+    prevScrollpos = currentSCrollpos;   
+    }
 </script>
+<script type="text/javascript">
+    
+    toptitlebody = function() {
+        var i= "1"
+        if (i=="1"){
+            document.getElementById("Titlebody1").style.top ="160px";
+        }
+        else
+            document.getElementById("Titlebody1").style.top ="204px";
+    }
+</script>
+<script type="text/javascript">
+
+    topdivbody2 = function() {
+        var i="1"
+        if (i=="1"){
+            document.getElementById("divbody2").style.top ="140px";
+        }
+        else 
+            document.getElementById("divbody2").style.top="180";
+    }
+</script>
+
 <link rel="stylesheet" type="text/css" href="Styles PI dashboards.css">
-</body>
-<div id="pagerap">
-</body>
+<body onload="toptitlebody();topdivbody2();" >
 <div id="pagerap">
     <nav id="navbar">
         <div id="div1">
@@ -38,7 +57,7 @@
         </div>
         <div id="div4">
             <a href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"></a>
-            <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="67px" width="90px">
+            <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="87px" width="90px">
             <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Werkwijze</b></a>
         </div>
         <div id="div5">
@@ -52,4 +71,48 @@
             <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Contact</b></a>
         </div>
     </nav> 
+    <div id= "Titlebody1">
+        <p> <span class="Title1"><u>Maar wat is een Dashboard?</u></span> </p>
+        
+            
+    </div>
+    <div id="divbody2">
+        <div id="voorbeeld-image">
+            <img src="Overzicht-Dash-img.jpg" id="voorbeeld-image" width="600px" height="290px">
+        </div>
+        <div id="divbody2Text1">
+        <p>Een dashboard is een grafische weergaven van data die vaak gebruikt word om deze data binnen een oogopslag helder weer te geven. 
+                Dashboards zorgen dus voor overzicht van de verschillende soorten data van een bedrijf waardoor deze meteen geïnterpreteerd kunnen worden en gebruikt bij de bedrijfsvoering.
+                <br><br>Dit kan er voor zorgen dat beslissingen binnen een bedrijf meer data gedreven worden en dus beter geïnformeerd.
+                Daarom hebben al veel verschillende bedrijven de afgelopen jaren gekozen om gebruik te maken van een Dashboard 
+                om bijvoorbeeld meer inzicht te krijgen in hun financiële toestand, personeel zaken of verkoop cijfers. <br><br></p>
+    </div>
+        <div= id="informatievoorbeelddash">
+            <div id="textmoverup">
+            <p> Een voorbeeld van de layout van een standaard dashbaord </p>
+            </div>
+        </div>
+
+
+
+    <div id="hidebody">
+        <div id="contacttext">
+            <p> <b><u> Contact Gegevens Perfect Insight.BV:</u><br>
+                <span class="contact"><br> Adres: Weverslaan 20, Voorburg, 2271BM <br>
+                    KVK: 0000<br>
+            Telefoon nummer: 06 373 20 922<br> 
+            Email: JlvandenElshout@gmail.com<br></span> </p></b>
+            
+            </div>
+        
+            <div id="contacttext2"> <p><br>  <b>Website: PerfectInsight.com <br>
+            Facebook: Facebook/PerfectInsight.nl<br>
+            Instagram: Instagram/PerfectInsight.nl<br>
+            Twitter: Twitter/PerfectInsight.nl</b></span></b>
+        </p>
+            </div> 
+            <img src="Logo.jpg" width="400px" height="100px" id="bottom-logo">
+        </div>
+            </div>
+</body>
 </html>
