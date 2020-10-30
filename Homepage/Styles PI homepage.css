@@ -22,7 +22,46 @@ body{
     left: 10px;
     border-radius: 20px;
     max-width: 100%;
-    
+}
+a {
+    position: relative;
+    display:block;
+    height: 90px;
+    width: 200px;
+    z-index: -2;
+    margin:0;
+    padding:0;
+    text-align: left;
+    ;bottom: 0;
+}
+a:link {
+    color: #c5b02b ;
+    text-decoration: none;
+    font-size: 18px;
+    z-index: 14;
+    opacity: 1;
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+}
+a:visited {
+    color: #c5b02b ;
+    text-decoration: none;
+    z-index: 14;
+    font-size: 18px;
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+}
+#linkfixer{
+    position: relative;
+    display: inline;
+    bottom: -70px;
+    z-index:20;
+    font-size:18;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    left: 5px;
 
 }
 #div1{
@@ -31,8 +70,8 @@ body{
     position: absolute;
     height: 90px;
     width: 200px;
-    top: 19px;
-    left: 18px;
+    bottom: 20px;
+    left: 10px;
     outline:0.5mm #a18f1f solid;
     text-align: inherit;
     max-width: 100%;
@@ -43,8 +82,8 @@ body{
     position: absolute;
     height: 90px;
     width: 200px;
-    top: 0px;
-    left: 210px;
+    bottom: 20px;
+    left: 221px;
     outline:0.5mm #a18f1f solid;
     text-align: start;
     z-index: 15;
@@ -55,8 +94,8 @@ body{
     position: absolute;
     height: 90px;
     width: 200px;
-    top: 0x;
-    left: 210px;
+    bottom: 20px;
+    left: 433px;
     outline:0.5mm #a18f1f solid;
 }
  #div4{
@@ -65,8 +104,8 @@ body{
     position: absolute;
     height: 90px;
     width: 200px;
-    top: 0x;
-    left: 210px;
+    bottom: 20px;
+    left: 646px;
     outline:0.5mm #a18f1f solid;
 
 }
@@ -75,8 +114,8 @@ body{
     position: absolute;
     height: 90px;
     width: 180px;
-    top: 0x;
-    left: 210px;
+    bottom:20px;
+    left: 859px;
     outline:0.5mm #a18f1f solid;
 }
 #div6{background-color: #26453a;
@@ -84,8 +123,8 @@ body{
     position: absolute;
     height: 90px;
     width: 180px;
-    top: 0x;
-    left: 190px;
+    bottom: 20px;
+    left: 1051px;
     outline:0.5mm #a18f1f solid;
 }
 #page-wrap {
@@ -95,11 +134,12 @@ body{
 #div-content1{
     position: absolute;
     display: block;
-    bottom: 1mm;
+    bottom: 0px;
     left: 2mm;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 15;
     font-weight: 800;
+    z-index: 20;
 }
 #homepic{
     position: absolute;
@@ -122,13 +162,13 @@ body{
 }
 #Logodashboard-site{
     position: absolute;
-    bottom: -4px;
-    left: 105px;
+    bottom: 0px;
+    left: 113px;
 
 }
 #Logoteam-site{
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     z-index: 0;
     left:100px;
     bottom: 1px;
@@ -136,8 +176,8 @@ body{
 #Logo-portofolio{
         position: absolute;
         z-index: 0;
-        bottom: 0px;
-        left:90px
+        bottom: 2px;
+        left:104px
 
 }
 #Logo-werkwijze{
@@ -157,7 +197,7 @@ body{
     position: absolute;
     z-index: 0;
     bottom: 3px;
-    left:85px;
+    left:100px;
     opacity: 1;
 }
 #logo-only-pie{
@@ -165,20 +205,6 @@ body{
     z-index: 20;
     top:40px ;
     right:445px ;
-}
-
-a:link {
-    color: #c5b02b ;
-    text-decoration: none;
-    font-size: 18px;
-    z-index: 14;
-    opacity: 1;
-}
-a:visited {
-    color: #c5b02b ;
-    text-decoration: none;
-    z-index: 2;
-    font-size: 18px;
 }
 h1{
     background-color:#13281f;
