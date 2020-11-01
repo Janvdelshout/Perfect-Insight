@@ -3,7 +3,7 @@ html{
 }
 body{   
     background: rgb(19,40,31);
-    background: linear-gradient(#8bbae9,#ffff);
+    background: linear-gradient(#5485b1, #c5d9ec);
     position: absolute;
     width: 1300px; 
     height: 1700px;
@@ -185,14 +185,14 @@ a:visited {
 #Logo-recensie{
         position: absolute;
         z-index: 0;
-        left:47px;
+        left:42px;
         bottom: 23px;
         opacity: 1;
 }
 #Logo-contact{
     position: absolute;
     z-index: 0;
-    left:52px;
+    left:45px;
     bottom: 27px;
     opacity: 1;
 }
