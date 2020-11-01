@@ -13,84 +13,119 @@
         document.getElementById("navbar").style.top = "-200px"; 
     }
     prevScrollpos = currentSCrollpos;
-
-    if (prevScrollpos > currentSCrollpos) {
-        document.getElementById("Titlebody1").style.top="1200px";
-    } 
-    else {
-        document.getElementById("Titlebody1").style.top= "613px";
     }
-    prevScrollpos = currentSCrollpos;
-
-    if (prevScrollpos > currentSCrollpos) {
-        document.getElementById("intropic").style.top = "0px";
-    } 
-    else {
-        document.getElementById("intropic").style.top = "-2000px"; 
+</script>
+<script type="text/javascript">
+        toptitlebody = function() {
+        var i= "1"
+        if (i=="1"){
+        document.getElementById("Titlebody1").style.top="142px";
+        }
+        else
+        document.getElementById("Titlebody1").style.top= "428px";
     }
-    }    
+</script>
+<script type="text/javascript">
+    tophomepic1 = function() {
+        var i= "1"
+        if (i=="1"){
+        document.getElementById("homepic1").style.top="130px";
+        }
+        else
+        document.getElementById("homepic1").style.top= "130px";
+    }
+</script>
+<script type="text/javascript">
+    tophomepic2 = function() {
+        var i= "1"
+        if (i=="1"){
+        document.getElementById("homepic2").style.top="130px";
+        }
+        else
+        document.getElementById("homepic2").style.top= "130px";
+    }
+</script>
+<script type="text/javascript">
+    div = function() {
+        var i= "1"
+        if (i=="1"){
+        document.getElementById("divbody2").style.top="475px";
+        }
+        else
+        document.getElementById("divbody2").style.top= "470px";
+    }
+</script>
+<script type="text/javascript">
+    intropic = function() {
+        var i= "1"
+        if (i=="1"){
+        document.getElementById("intropic").style.opacity="0";
+        document.getElementById("intropic").style.zIndex="0";
+        document.getElementById("navbar")
+        }
+        else
+        document.getElementById("intropic").style.opacity= "0";
+    }
 </script>
 <link rel="stylesheet" type="text/css" href="Styles PI homepage.css">
+<body onload= "toptitlebody(); tophomepic1();tophomepic2(); div(); intropic()">
 <head>
     <title>  De website van Perfect Insight </title>
 </head>
-<div id="intropic">
-    <img src="intropic.jpg" id="intropi">
+<div id="intropic">  
+    <img src="intropic.jpg" alt="">
 </div>
-</body>
     <div id="pagerap">
         <nav id="navbar">
-            <div id="div1">
+            <div id="div1" class="divcolor">
                 <a href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"></a>
-                <img src= "Logo dashboard voor site.jpg" id="Logodashboard-site" height="75px" width="75px">
+                <img src= "Logo dashboard voor site.PNG" id="Logodashboard-site" height="70px" width="70px">
                 <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Dashboards</b></a>
             </div>
-            <div id="div2">
+            <div id="div2" class="divcolor">
                 <a href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"></a>
-                <img src= "Logo wie is perfect insight site.jpg" id="Logoteam-site" height="67px" width="90px">
+                <img src= "Logo wie is perfect insight site.png" id="Logoteam-site" height="60px" width="80px">
                 <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Het Team</b></a>
             </div> 
-            <div id="div3">
+            <div id="div3" class="divcolor">
                 <a href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"></a>
-                <img src= "Logo potofolio website.jpg" id="Logo-portofolio" height="65px" width="90px">
+                <img src= "Logo potofolio website.png" id="Logo-portofolio" height="60px" width="75px">
                 <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Portfolio</b></a>
             </div>
-            <div id="div4">
+            <div id="div4" class="divcolor">
                 <a href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"></a>
-                <img src= "Logo Werkwijze.jpg" id="Logo-werkwijze" height="73px" width="90px">
+                <img src= "Logo Werkwijze.png" id="Logo-werkwijze" height="60px" width="85px">
                 <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Werkwijze</b></a>
             </div>
-            <div id="div5">
+            <div id="div5" class="divcolor">
                 <a href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"></a>
-                <img src= "Logo recensie.jpg" id="Logo-recensie" height="67px" width="80px">
+                <img src= "Logo recensie.png" id="Logo-recensie" height="60px" width="60">
                 <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Recensies</b></a>
             </div>
-            <div id="div6">
+            <div id="div6" class="divcolor">
                 <a href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"></a>
-                <img src= "Logo contact.jpg" id="Logo-contact" height="50px" width="70px">
+                <img src= "Logo contact.png" id="Logo-contact" height="40px" width="60px">
                 <a id="linkfixer" href="file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website\Perfect-insight\Dashboards\Dashboards.html" target="_self" title ="Wie is Perfect Insight"> <b>Contact</b></a>
             </div>
         </nav> 
-        <body>
         <div id="div7">
-            <img class="bottom" src="HomepicV2.jpg" alt="" id="homepic" height="400px" width="1200px">/>
-            <img class="top" src="HomepicV1.jpg" height="400px" id="homepic" width="1200px" />
+            <img class="bottom" src="HomepicV2.jpg" alt="" id="homepic1" height="300px" width="870px">/>
+            <img class="top" src="HomepicV1.jpg" height="300px" id="homepic2" width="870px" />
         </div>
         <div id= "Titlebody1">
             <p id="text-of-welkom"><span class="bigger-better"> Een Dashboad van Perfect Insight geeft u  makkelijk overzichtelijk en innovatief inzicht in uw data </span></p>
         </div>
-        <div id= "hidebody1">
-        <div id= "divbody2" >
-                <img alt="" src="Homepagedivbod1.jpg"  
-                    style="height: 300px; width: 500px" id="imgClickAndChange"
+        <div id= "divbody2" class="center" >
+                <img alt="" src="Homepagedivbod1.png"  
+                    style="height: 270px; width: 390px" id="imgClickAndChange"
             onclick="changeImage()"  />
             <script language="javascript">
                 var image_tracker = "1"
                 function changeImage() {
                     if (image_tracker == "1") {
-                        document.getElementById("imgClickAndChange").src == "file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website/Perfect-insight/HomepicV1.jpg";
+                        document.getElementById("imgClickAndChange").src == "file:///C:/Users/Jan%20vd%20Elshout/Desktop/PI%20website/Perfect-insight/Homepage/HomepicV1.png";
                     {
-                        document.getElementById("imgClickAndChange").src = "Homepagedivbod1.jpg";
+                        document.getElementById("imgClickAndChange").src = "Homepagedivbod1.png";
                         image_tracker ="2";
                     }  
                     } 
@@ -113,15 +148,15 @@
                 }
                 </script>
                 <div class="parent" style="height: 300px; width: 500px">
-                    <img alt="button" src="Rondje.png" style="height: 130px; width: 130px" id="button" class="overlay" >
+                    <img alt="button" src="Rondje.png" style="height: 100px; width: 100px" id="button" class="overlay" >
                     
                 </div>
             <div id="divbody2text">
                 <p><b>Welkom op de Website van Perfect Insight (PI) de Dashboard bouwers van ondernemend Nederland</b><br><br>
                 <span class="goodquestion"><i>&bull; Heeft u genoeg data maar niet genoeg overzicht?<br><br>
                     &bull;  Wilt u de 21ste eeuw betreden op het gebied van data gebruik?<br><br>
-                    &bull; Geen zin om data gedreven feiten te achterhalen, maar direct gebruiken?<br><br><br></i>  </span>
-                    <b>Dan heeft u wellicht behoefte aan een Dashboard <br>(zoals hier links weergegeven) en daar kan PI direct bij helpen.</b></p>
+                    &bull; Geen zin om data gedreven feiten te achterhalen, maar direct &nbsp;&nbsp;gebruiken?<br><br></i>  </span>
+                    <b> Dan heeft u wellicht behoefte aan een Dashboard <br>(zoals hier links weergegeven) en daar kan PI direct bij helpen.</b></p>
             </div>
 
         </div>
@@ -131,17 +166,17 @@
                 <b>Een kleine onderneming met een passie voor perfectie en een oog voor efficiëntie, 
                 allemaal om te zorgen dat uw bedrijf het optimale uit uw data en potentie kan halen.</b> <br><br>
                 Wilt u meer informatie over dashboards en onze unieke aanpak van deze te maken,
-                klik dan snel op Dashboard en Werkwijze in de navigatiebalk voor meer informatie.<br>
-                Meer interesse in wie wij zijn en wilt u meer informatie over onze vorige projecten klik dan op Het team en Portofolio.<br> 
-                Of wilt u zien wat anderen ondernemers van onze service vonden kijk dan bij onze recensies. <br>
+                klik dan snel op Dashboard en Werkwijze in de navigatiebalk voor meer informatie.
+                Meer interesse in wie wij zijn en wilt u meer informatie over onze vorige projecten klik dan op Het team en Portofolio.
+                Of wilt u zien wat anderen ondernemers van onze service vonden kijk dan bij onze recensies. 
                 Nu al verkocht klik dan op Contact voor meer informatie over hoe u ons kunt bereiken.  </p>
             </div>
-            <img alt="" src="SMWC.png"  id="GuysittingatAcomputer"  
-            style="height: 400px; width: 400px left">
+            <img alt="" src=""  id="GuysittingatAcomputer"  
+            style="height: 260px; width: 200px left">
         </div>
         <div id="hidebody">
             <div id="contacttext">
-                <p> <b><u> Contact Gegevens Perfect Insight.BV:</u><br>
+                <p> <b><u>Contact Gegevens Perfect Insight.BV:</u>
                     <span class="contact"><br> Adres: Weverslaan 20, Voorburg, 2271BM <br>
                         KVK: 0000<br>
                 Telefoon nummer: 06 373 20 922<br> 
@@ -160,7 +195,7 @@
                 </div>
         </div>
         <div id="divbody4">
-            <img src="Untitled-7.png" id="divbod4img" height="325px" width="320px">
+            <img src="" id="divbod4img" height="280px" width="260px">
             <div id="divbody4text"> <p> <span class="wijzijnpi"><u>Samen maken wij het perfecte dashboard voor uw bedrijf </u></span><br><br>
 
                     <span class="textdiv4">Wij weten dat er tegenwoordig veel verschillende manieren zijn om een dashbaords zelf te maken.<br>

@@ -26,18 +26,29 @@
 </script>
 <script type="text/javascript">
 
+    topdiv7 = function() {
+        var i="1"
+        if (i=="1"){
+            document.getElementById("div7").style.top ="220px";
+        }
+        else 
+            document.getElementById("div7").style.top="180ox";
+    }
+</script>
+<script type="text/javascript">
+
     topdivbody2 = function() {
         var i="1"
         if (i=="1"){
-            document.getElementById("divbody2").style.top ="140px";
+            document.getElementById("divbody2").style.top ="220px";
         }
         else 
-            document.getElementById("divbody2").style.top="180";
+            document.getElementById("divbody2").style.top="180ox";
     }
 </script>
 
 <link rel="stylesheet" type="text/css" href="Styles PI dashboards.css">
-<body onload="toptitlebody();topdivbody2();" >
+<body onload="toptitlebody();topdiv7();topdivbody2();topdiv7();" >
 <div id="pagerap">
     <nav id="navbar">
         <div id="div1">
