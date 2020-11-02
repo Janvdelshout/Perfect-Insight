@@ -3,7 +3,7 @@ html{
 }
 body{   
     background: rgb(19,40,31);
-    background: linear-gradient(#5485b1, #c5d9ec);
+    background: linear-gradient(#bbee94, #f3f6c3);
     position: absolute;
     width: 1300px; 
     height: 1700px;
@@ -15,7 +15,7 @@ body{
     background-attachment: fixed;
 }
 #navbar{
-    background-color: #021c42;
+    background-color: #366119;
     position: fixed;
     height: 100px; 
     width: 1100px;
@@ -30,7 +30,7 @@ body{
     max-width: 100%;
 }
 .divcolor{
-    background-color:#021c42;
+    background-color:#366119;
 }
 a {
     position: relative;
@@ -68,7 +68,7 @@ a:visited {
     bottom: -70px;
     z-index:20;
     font-size:19;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Helvetica, sans-serif;
     font-weight: 800;
     left: 0px;
 
@@ -186,7 +186,7 @@ a:visited {
         position: absolute;
         z-index: 0;
         left:42px;
-        bottom: 23px;
+        bottom: 20px;
         opacity: 1;
 }
 #Logo-contact{
@@ -198,7 +198,7 @@ a:visited {
 }
 
 h1{
-    background-color:#8bbae9;
+    background-color:#64a446;
     position: relative;
     height: 40px; 
     width: 740px;
@@ -214,16 +214,16 @@ h1{
 #Titlebody1{
     position: relative;
     display:inline-block; 
-    height: 60px;
+    height: 90px;
     width: 875px;
-    background-color: #8bbae9;
+    background-color: #427322;
     margin-top: 0px;
     left:200px;
     border: 0mm #c5b02b solid;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
-    color:  #000000;
-    font-size: 16px;
+    color:  #ffffffff;
+    font-size: 15px;
     font-weight: normal;
     text-align: center;
     transition: top 1s;
@@ -284,16 +284,16 @@ h1{
 #divbody2{
     position: absolute;
     display: block;
-    height: 247px;
+    height: 200px;
     width: 855px;
-    background-color: #8bbae9;
+    background-color: #427322;
     margin-top:0px;
     left: 200px;
     border: 0mm #c5b02b solid;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     font-weight: 500;
-    color:  #000000;
-    font-size: 16px;
+    color:  #ffffffff;
+    font-size: 15px;
     text-align: left;
     top: 650px;
     z-index: 10;
@@ -304,18 +304,18 @@ h1{
 #divbody2text{
     display: inline-block;
     position: absolute;
-    width: 480px;
+    width: 580px;
     left: 12px;
     top: 0;
     z-index: 0;
 }
 #divbody2 img{
     position:absolute;
-    right:4px;
+    right:20px;
     bottom: 0px;
 }
 .goodquestion{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #divbody3{
@@ -323,34 +323,34 @@ h1{
     display: block;
     height: 300px;
     width: 880px;
-    background-color:#8bbae9;
+    background-color:#427322;
     margin-top: 0px;
     left: 200px;
     border: 0mm #c5b02b solid;
-    font-family: Arial, Helvetica, sans-serif;
-    color:  #000000;
+    font-family: Verdana, Helvetica, sans-serif;
+    color:  #ffffffff;
     font-size: 16px;
     text-align: left;
     transition: top 2s;
-    top: 785px;
+    top: 810px;
     z-index: 1  0;
     border-radius: 20px;
 }
 #divbody4{
     position: absolute;
     display: block;
-    height: 340px;
+    height: 310px;
     width: 880px;
-    background-color:#8bbae9;
+    background-color:#427322;
     margin-top: 0px;
     left: 50px;
     border: 0mm #c5b02b solid;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     color:  050607;
-    font-size: 16px;
+    font-size: 15px;
     text-align: left;
     transition: top 2s;
-    bottom: 230px;
+    bottom: 245px;
     left:200px;
     z-index: 10;
     border-radius: 20px;
@@ -362,14 +362,14 @@ h1{
     left: 20px;
     top: 0px;
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:Verdana, Helvetica, sans-serif ;
 }
 #hidebody{
     position: absolute;
     display: block;
     height: 140px;
     width: 1263px;
-    background-color:#003156 ;
+    background-color:#427322 ;
     margin-top: 0px;
     left: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -399,14 +399,14 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     bottom:0px;
 }
-#GuysittingatAcomputer {
+#Oogopdata {
     position: absolute;
-    bottom: 0px;
-    left: 610px;
+    bottom: 60px;
+    left: 650px;
 } 
 #bottom-logo{
     position: absolute;
-    right:100px;
+    right:10px;
     bottom:10px;
     z-index: 30;
 }
@@ -453,16 +453,17 @@ h1{
   }
 #divbod4img{
     position: absolute;
-    bottom: 0;
-    right:0px;
+    bottom: 40px;
+    right:30px;
 }
 #divbody4text{
     left: 15px;
     display: inline;
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 15px;
     width: 600px;
+    color: #ffffffff;
 }
 .textdiv4{
     font-size: 16px;
